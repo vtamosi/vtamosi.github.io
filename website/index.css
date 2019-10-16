@@ -1,0 +1,34 @@
+.home-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+
+.home-section .image-wrapper {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+
+}
+
+.home-section .salisa-image {
+    background-image: url(images/salisa.jpg);
+    flex-grow: 1;
+    max-height: 70vh;
+    min-width: 35vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.home-section .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: center;
+}
